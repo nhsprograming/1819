@@ -1,0 +1,7 @@
+(lambda y: )(define y here)
+
+creates list of numbers from a input
+list(map(int, input().split()))
+
+first input is number of inputs, creates list of following inputs
+[input() for x in range(int(input()))]
